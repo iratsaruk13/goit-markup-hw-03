@@ -121,9 +121,9 @@ a {
   display: inline-block;
   padding: 10px;
 }
-.contacts-item + .contacts-item {
+/* .contacts-item + .contacts-item {
   margin-left: 50px;
-}
+} */
 /* Main */
 .main {
   background-color: var(--second-background-color);
