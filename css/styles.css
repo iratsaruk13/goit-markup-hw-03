@@ -295,7 +295,7 @@ a {
 .portfolio-btn-list {
   display: flex;
   gap: 8px;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 .portfolio-btn {
