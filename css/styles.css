@@ -206,6 +206,7 @@ a {
 }
 /* Activity */
 .activity {
+  padding-top: 0;
   padding-bottom: 94px;
 }
 .activity-list {
