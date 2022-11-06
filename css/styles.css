@@ -157,6 +157,7 @@ a {
   color: var(--white-color);
   cursor: pointer;
   border: 0;
+  border-radius: 4px;
 }
 .main-title-btn:hover,
 .main-title-btn:focus {
@@ -311,6 +312,7 @@ a {
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
+  border-radius: 4px;
 }
 .portfolio-btn:focus,
 .portfolio-btn:hover {
