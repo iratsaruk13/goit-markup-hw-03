@@ -189,7 +189,7 @@ a {
 
 .benefits-list {
   display: flex;
-  gap: 30p;
+  gap: 30px;
 }
 .benefits-list-item {
   width: calc((100% - 90px) / 4);
