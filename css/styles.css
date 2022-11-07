@@ -49,10 +49,11 @@ a {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
+  margin: 0 auto;
 }
 /* Header */
 .header {
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
 }
 .header-container {
   display: flex;
@@ -72,6 +73,8 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+}
+.header-logo {
   margin-right: 93px;
 }
 .logo-accent {
@@ -127,20 +130,22 @@ a {
 /* Main */
 .main {
   background-color: var(--second-background-color);
-}
-.main-wrap {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
+
 .main-title {
+  margin-bottom: 30px;
+  margin-top: 0;
+  color: var(--white-color);
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--white-color);
-  margin-bottom: 30px;
 }
+
 .main-title-btn {
   min-width: 216px;
   min-height: 50px;
@@ -184,14 +189,14 @@ a {
 
 .benefits-list {
   display: flex;
+  gap: 30p;
 }
 .benefits-list-item {
-
-  width: calc((100%-90px) / 4);
+  width: calc((100% - 90px) / 4);
 }
-
 .benefits-title {
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -219,6 +224,7 @@ a {
 
 .section-title {
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
@@ -235,7 +241,7 @@ a {
   gap: 30px;
 }
 .team-list-item {
-  width: calc((100%-90px) / 4);
+  width: calc((100% - 90px) / 4);
   background-color: var(--white-color);
   box-shadow: var(--team-card-shadow);
   border-radius: 0px 0px 4px 4px;
@@ -246,6 +252,7 @@ a {
 }
 .team-title {
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
@@ -291,11 +298,10 @@ a {
 
 /* Portfolio */
 
-
 .portfolio-btn-list {
   display: flex;
   gap: 8px;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 50px;
 }
 .portfolio-btn {
@@ -325,8 +331,8 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
   color: var(--main-title-color);
+  margin-bottom: 4px;
 }
 .portfolio-subtitle {
   font-weight: 400;
@@ -339,6 +345,9 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+.portfolio-projects-item {
+  width: calc((100% - 60px) / 3);
 }
 .portfolio-text-wrap {
   padding-top: 20px;
